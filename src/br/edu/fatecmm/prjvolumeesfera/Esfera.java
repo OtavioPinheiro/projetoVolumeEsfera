@@ -32,7 +32,7 @@ public class Esfera {
   }
 
   public double calculaVolume() {
-    return (4/3) * this.PI * Math.pow(this.raio, 3);
+    return (4.0/3.0) * this.PI * Math.pow(this.raio, 3);
   }
 
   public boolean calculaDenovo() {
